@@ -15,7 +15,7 @@
                         <h5 class="card-title text-center">{{$product->name}}</h5>
                         <span>{{$product->price}}</span>
                         <p>Категория: {{$product->category->name}}</p>
-{{--                        <a class="btn btn-outline-primary mt-auto" href="{{route('books.show', $product->id)}}">Подробнее</a>--}}
+                        <a class="btn btn-outline-primary mt-auto" href="{{route('products.show', $product->id)}}">Подробнее</a>
                     </div>
                 </div>
             </div>

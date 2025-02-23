@@ -1,1 +1,8 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none !important;
+}
+

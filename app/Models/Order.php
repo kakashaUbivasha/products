@@ -8,7 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Order extends Model
 {
     use HasFactory;
-    public function products()
+    protected $guarded = [];
+    public function product()
     {
         return $this->belongsTo(Product::class);
     }

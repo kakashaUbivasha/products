@@ -11,7 +11,7 @@
 <div class="container mt-3">
     <ul class="d-flex justify-content-center gap-5">
         <li><a href="{{route('products.index')}}">Товары</a></li>
-{{--        <li><a href="{{route('genres.index')}}">Заказы</a></li>--}}
+        <li><a href="{{route('orders.index')}}">Заказы</a></li>
     </ul>
     @yield('content')
 </div>
